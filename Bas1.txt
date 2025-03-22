@@ -1,0 +1,2 @@
+//class -- is a logic
+//object -- is instance of class
