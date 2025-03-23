@@ -1,7 +1,7 @@
 package opps.properties.inhritence;
 
 public class Box {
-    double l;
+  private   double l;
     double h;
     double w;
     double weight;
@@ -9,6 +9,12 @@ public class Box {
         this.h=-1;
         this.l=-1;
         this.w=-1;
+    }
+    public double getl(){
+        return l;
+    }
+    static void g(){
+        System.out.println("he i am in bc class");
     }
     //cube;
     Box(double side){

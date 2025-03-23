@@ -17,7 +17,9 @@ public class Main {
 
 
         Bocprice box=new Bocprice(5,8,200);
-
+        Box p=new BoxWeight();
+        p.g();
+        p.getl();
 
     }
 }

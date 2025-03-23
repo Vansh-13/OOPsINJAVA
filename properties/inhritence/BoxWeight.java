@@ -6,6 +6,11 @@ public class BoxWeight extends  Box{
         this.weight=-1;
     }
 
+//    @Override // no ovverde static method
+    static void g(){
+        System.out.println("he imm am in bc class");
+    }
+
     public BoxWeight(double l, double w, double h, double weight) {
         super(l, w, h); //what is this this? call the parent constructor
 //use to intalize value in parent class constructure

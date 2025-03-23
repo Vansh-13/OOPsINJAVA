@@ -57,3 +57,14 @@ this is acieve via methos overriding --> when child class same method and parent
 
 //dynamice method dispatch --> dynamic polymorphism m use
 Dynamic Method Dispatch ka concept Dynamic Polymorphism me use hota hai. Yeh runtime pe method resolution karta hai, jisme object type ke basis pe overridden method call hota hai, na ki reference type ke basis pe.
+//final method can not overvide;
+//static method cannot ovrride it can be inherited not oveeride
+
+//Ecuplsulation (hide in the single unit)
+wrap up the implimantation of the data and method in a class
+
+//abstraction (hiding the unneccsary details but showing the valuable information)
+
+//encuplsution solve the implements solve the issue; -->in enc data can be private or public both but when we apply data hiding so data is private;and access by the public getter and setter;
+
+//abstration solve the design level issue;
