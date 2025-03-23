@@ -8,3 +8,15 @@ object are store in heap in java new student() //type
 //wrapper classes
 Interger num=45;  wrapper claees are final not changes there values bhale hi y refernce ho
 //alwayas intialize the final keyword while declaring it
+
+//static //this all static belong to the class not a class object
+Understanding static: //not realted any object
+When a member is declared static, it can be accessed before any objects of its class are created,
+and without reference to any object. You can declare both methods and variables to be static.
+--> any static method usker ander non-static not accessabel; static only access static -->but vice-versa is true
+//but it can access not-static in staitc jab hm instancce bna lenge ab access ho sakta h
+static void fun(){
+Main ob=new Main();
+ob.m(); //m is non-static access only instance creted
+}
+--> static are compile time beacuse object crete runtime but sttic not relted object
