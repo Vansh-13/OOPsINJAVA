@@ -13,10 +13,26 @@ Interger num=45;  wrapper claees are final not changes there values bhale hi y r
 Understanding static: //not realted any object
 When a member is declared static, it can be accessed before any objects of its class are created,
 and without reference to any object. You can declare both methods and variables to be static.
---> any static method usker ander non-static not accessabel; static only access static -->but vice-versa is true
+--> a ny static method usker ander non-static not accessabel; static only access static -->but vice-versa is true
 //but it can access not-static in staitc jab hm instancce bna lenge ab access ho sakta h
 static void fun(){
 Main ob=new Main();
 ob.m(); //m is non-static access only instance creted
 }
 --> static are compile time beacuse object crete runtime but sttic not relted object
+
+//4 pillar oops
+---> Inheritance  a class child extends base class
+//super call the parent class constructor
+Access Parent Constructor
+super();  // Calls parent class constructor
+Access Parent Method
+super.methodName();  // Calls parent class method
+Access Parent Variable
+super.variableName;  // Access parent class variable
+
+//in java refernce of subclass can not receve object of super clss
+ b obj=new A()// not correct;
+ A obj=new B() //this is right;
+ //types of inheritence --> single inheritence one class extends another class
+ --> multilevel inhertience-->  a is a parent b and b is a parent of c
