@@ -13,7 +13,13 @@ public class BoxWeight extends  Box{
         this.weight = weight;
     }
 
-    public BoxWeight(Bocprice other) {
+     BoxWeight(Bocprice other) {
 
     }
+     BoxWeight(double side, double weight){
+         super(side);
+         System.out.println("hello2");
+
+        this.weight=weight;
+     }
 }

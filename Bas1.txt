@@ -30,9 +30,30 @@ Access Parent Method
 super.methodName();  // Calls parent class method
 Access Parent Variable
 super.variableName;  // Access parent class variable
-
+INHERITENCE
 //in java refernce of subclass can not receve object of super clss
  b obj=new A()// not correct;
- A obj=new B() //this is right;
+ A obj=new B() //this is right; This is upcasting, where a parent class reference (A) refers to a child class object
  //types of inheritence --> single inheritence one class extends another class
  --> multilevel inhertience-->  a is a parent b and b is a parent of c
+ -->multile inhertane--> one class extending more than one classes;
+ c extends a and b both; --> in java does not support in java (ambuity probelm)
+ // that is solve by interfaces
+
+-->heriachincal inheritance --> one class is inheritant by many classes
+b parent a and c parent also a and d parent also a
+-->hrbrid inheritance -->combinaiton of single and multiple inheritance // not i java hybrid because of multtiple inhertiace
+However, Hybrid Inheritance can be implemented using Interfaces.
+
+
+POLYMORPHISGAM -->poly-many morphism-ways to represent
+///types of polymorphism
+type1---> compile time or static time polymorsipm
+this is achieve via method overloading. -->muitiple method with same name but paramneter,argumentp,types,return type can be different (eg multiple construcutre);
+
+type2--> runtime time or dynamic time poilymoeishin
+this is acieve via methos overriding --> when child class same method and parent class also same method -- this is oveririding
+@Overide// check notation use for check purpose
+
+//dynamice method dispatch --> dynamic polymorphism m use
+Dynamic Method Dispatch ka concept Dynamic Polymorphism me use hota hai. Yeh runtime pe method resolution karta hai, jisme object type ke basis pe overridden method call hota hai, na ki reference type ke basis pe.

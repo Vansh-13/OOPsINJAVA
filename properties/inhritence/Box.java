@@ -12,6 +12,7 @@ public class Box {
     }
     //cube;
     Box(double side){
+        System.out.println("hello1");
         this.w=side;
         this.l=side;
         this.h=side;
