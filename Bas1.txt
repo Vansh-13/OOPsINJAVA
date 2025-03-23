@@ -1,2 +1,10 @@
 //class -- is a logic
 //object -- is instance of class
+object are store in heap in java new student() //type
+✅ Objects are stored in the Heap.
+//but refernce store in stack;
+✅ References (like s1, s2) are stored in the Stack.
+
+//wrapper classes
+Interger num=45;  wrapper claees are final not changes there values bhale hi y refernce ho
+//alwayas intialize the final keyword while declaring it
