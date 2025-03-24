@@ -65,6 +65,34 @@ wrap up the implimantation of the data and method in a class
 
 //abstraction (hiding the unneccsary details but showing the valuable information)
 
-//encuplsution solve the implements solve the issue; -->in enc data can be private or public both but when we apply data hiding so data is private;and access by the public getter and setter;
+//encuplsution solve the implements solve the issue;--> in enc data can be private or public both but when we apply data hiding so data is private;and access by the public getter and setter;
 
 //abstration solve the design level issue;
+
+//ACCESS MODIFIER
+//by default -- in same package and subclass same package it is allow not differnt package is not allow
+//by public-- it is acess anywhere
+//nu private -- it is acees only with in class
+//protected -- it is acces class,package,subclass same package,subclass diff package //subclass means iherit somethign
+
+ //Abstract
+ //function dont have the boady that is abstrctmethod and child child override this method
+ abstract void carrer(String name); //abstract method
+ any classes have one or more abstract method it is declare abstract
+//int age class crtea normal variabel is allow int age;
+//not create of the object of the abstract class
+//not cretea a abstract constructure in their abstract class
+//abstract static method -- static not be oveeriden but abstract is overriden so abstract there not allow abstract static method also
+//only static method is allow in astract class static void g(){
+sout
+}
+//in therir abstract noraml methos is also  allow with definaltion
+//in their also static ,int ,final variabel allow;
+//NOt suppost multiple inheirtanc beacuse normal nmethos alllow h isme;
+
+
+
+
+
+
+
